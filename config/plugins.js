@@ -13,4 +13,10 @@ module.exports = ({ env }) => ({
       },
     },
   },
+  graphql: {
+    enabled: true,
+    config: {
+      defaultLimit: -1, // all posts to be retreived in a single request
+    },
+  },
 });
