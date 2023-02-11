@@ -1,9 +1,10 @@
-const parse = require("pg-connection-string").parse;
-const config = parse(process.env.DATABASE_URL);
+const mysql = require("mysql");
+
+const { config } = mysql.createConnection(process.env.JAWSDB_URL);
 
 module.exports = ({ env }) => ({
   connection: {
-    client: "postgres",
+    client: "mysql",
     connection: {
       host: config.host,
       port: config.port,
