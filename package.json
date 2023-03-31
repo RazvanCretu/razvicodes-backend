@@ -11,11 +11,11 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.8.2",
-    "@strapi/plugin-i18n": "4.8.2",
-    "@strapi/plugin-users-permissions": "4.8.2",
-    "@strapi/provider-upload-cloudinary": "^4.8.2",
-    "@strapi/strapi": "4.8.2",
+    "@strapi/plugin-graphql": "^4.9.0",
+    "@strapi/plugin-i18n": "4.9.0",
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/provider-upload-cloudinary": "^4.9.0",
+    "@strapi/strapi": "4.9.0",
     "mysql": "^2.18.1",
     "pg": "8.6.0"
   },
