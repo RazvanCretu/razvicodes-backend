@@ -15,12 +15,18 @@
     "@strapi/plugin-users-permissions": "4.16.2",
     "@strapi/provider-upload-cloudinary": "^4.16.2",
     "@strapi/strapi": "4.16.2",
+    "cloudinary": "^1.41.1",
     "mysql": "^2.18.1",
     "pg": "8.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.4",
     "styled-components": "^5.3.11"
+  },
+  "overrides": {
+    "@strapi/plugin-graphql": {
+      "graphql": "16.8.1"
+    }
   },
   "author": {
     "name": "A Strapi developer"
