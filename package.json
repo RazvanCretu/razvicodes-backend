@@ -15,7 +15,7 @@
     "@strapi/plugin-users-permissions": "4.20.2",
     "@strapi/provider-upload-cloudinary": "^4.20.2",
     "@strapi/strapi": "4.20.2",
-    "cloudinary": "^1.41.1",
+    "cloudinary": "^1.41.3",
     "mysql": "^2.18.1",
     "pg": "8.6.0",
     "react": "^18.2.0",
