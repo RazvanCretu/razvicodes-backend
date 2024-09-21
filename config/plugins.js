@@ -16,6 +16,7 @@ module.exports = ({ env }) => ({
   graphql: {
     enabled: true,
     config: {
+      v4ComptabilityMode: true,
       defaultLimit: -1, // all posts to be retreived in a single request
     },
   },
