@@ -10,11 +10,11 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/email": "^5.0.0",
-    "@strapi/plugin-graphql": "^5.0.0",
-    "@strapi/plugin-users-permissions": "^5.0.0",
-    "@strapi/provider-upload-cloudinary": "^5.0.0",
-    "@strapi/strapi": "5.0.0",
+    "@strapi/email": "^5.0.1",
+    "@strapi/plugin-graphql": "^5.0.1",
+    "@strapi/plugin-users-permissions": "^5.0.1",
+    "@strapi/provider-upload-cloudinary": "^5.0.1",
+    "@strapi/strapi": "5.0.1",
     "cloudinary": "^1.41.3",
     "mysql2": "^3.11.3",
     "pg": "8.6.0",
@@ -28,10 +28,6 @@
   },
   "strapi": {
     "uuid": "c385ec08-d493-4fd9-8b28-eafb20af084a"
-  },
-  "engines": {
-    "node": "18.x.x",
-    "npm": ">=6.0.0"
   },
   "license": "MIT"
 }
